@@ -225,8 +225,6 @@ body {
   padding: 10px 20px 20px 20px;
   border-radius: 15px;
   margin: 10px auto;
-  width: 25%;
-  height: 30%;
   align-items: center;
 }
 .project-card:hover {
@@ -234,6 +232,7 @@ body {
 }
 .projects-container {
   margin: 20px auto;
+  gap:10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,6 +285,7 @@ body {
 /* certificates */
 .certificates-container {
   margin: 20px auto;
+  gap:10px;
   display: flex;
   min-width: fit-content;
   justify-content: center;
@@ -296,9 +296,6 @@ body {
   background-color: #2c07569f;
   padding: 10px 20px 20px 20px;
   border-radius: 15px;
-  margin: 10px auto;
-  width: 25%;
-  height: 20%;
   align-items: center;
 }
 .certificate-card:hover {
