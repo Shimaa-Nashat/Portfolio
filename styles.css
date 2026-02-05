@@ -225,6 +225,8 @@ body {
   padding: 10px 20px 20px 20px;
   border-radius: 15px;
   margin: 10px auto;
+  width: 325px;
+  height: 390px;
   align-items: center;
 }
 .project-card:hover {
@@ -232,8 +234,8 @@ body {
 }
 .projects-container {
   margin: 20px auto;
-  gap:10px;
   display: flex;
+  width: 95% ;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
@@ -241,7 +243,7 @@ body {
 .project-image {
   display: block;
   margin: auto;
-  width: 300px;
+  width: 280px;
   border-radius: 15px;
 }
 .project-title {
@@ -285,9 +287,9 @@ body {
 /* certificates */
 .certificates-container {
   margin: 20px auto;
-  gap:10px;
+  gap: 20px;
   display: flex;
-  min-width: fit-content;
+  max-width: 80%;
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
@@ -296,6 +298,9 @@ body {
   background-color: #2c07569f;
   padding: 10px 20px 20px 20px;
   border-radius: 15px;
+  margin: 10px auto;
+  width: 325px;
+  height: 309px;
   align-items: center;
 }
 .certificate-card:hover {
@@ -307,7 +312,9 @@ body {
 .certificate-image {
   display: block;
   margin: auto;
+  object-fit: cover;
   width: 280px;
+  height: 213px;
   border-radius: 15px;
 }
 .certificate-title {
@@ -370,7 +377,7 @@ body {
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 10px;
-  width: 95%;
+  width: 100%;
   height: 150px;
   border: none;
   background-color: #e9deff;
@@ -383,7 +390,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.contact-button{
+#submitBtn{
   padding: 10px 20px;
   border-radius: 15px;
   font-size: 16px;
@@ -394,7 +401,7 @@ body {
   font-weight: 600;
   margin-top: 10px;
 }
-.contact-button:hover {
+#submitBtn:hover {
   transform: scale(1.02);
   box-shadow: 0 0 5px #b923ff, 0 0 10px #b923ff, 0 0 20px #b923ff;
 }
