@@ -6,7 +6,7 @@ The portfolio includes smooth scroll-reveal animations, responsive layouts, proj
 
 ## 🌐 Live Site
 
-[View my portfolio](ADD_YOUR_DEPLOYED_URL_HERE)
+[View my portfolio](https://portfolio-xi-one-22.vercel.app/)
 
 ## ✨ Sections
 
