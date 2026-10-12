@@ -62,7 +62,7 @@ function HeroInfo({ Arrow }) {
         <a className="button primary" href="#projects">
           View My Work {Arrow}
         </a>
-        <a className="button" href={CV} download>
+        <a className="button" href={CV} download="Shimaa-Nashat-CV.pdf">
           Download my CV <span aria-hidden="true">↓</span>
         </a>
       </div>
@@ -76,7 +76,7 @@ function HeroInfo({ Arrow }) {
           target="_blank"
           rel="noreferrer"
         >
-          <FaLinkedin /> LinkedIn ↗
+          <FaLinkedin /> LinkedIn 
         </a>
         <a
           className="hero-links"
@@ -84,7 +84,7 @@ function HeroInfo({ Arrow }) {
           target="_blank"
           rel="noreferrer"
         >
-          <FaGithub /> GitHub ↗
+          <FaGithub /> GitHub 
         </a>
       </div>
     </div>
