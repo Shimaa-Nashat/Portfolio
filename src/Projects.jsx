@@ -2,8 +2,42 @@ import SectionHeading from "./SectionHeading";
 import HealthEmpire from "./assets/HealthEmpire.png";
 import CineRate from "./assets/CineRate.png";
 import Homora from "./assets/Homora.png";
+import FIFAWorldCup from "./assets/FIFAWorldCup.png";
 
 const projects = [
+  {
+    name: "FIFA World Cup Data Intelligence",
+    kind: "Data Analytics & Database Engineering",
+    image: FIFAWorldCup,
+    featured: true,
+    github: "https://github.com/Shimaa-Nashat/FIFA-World-Cup-Data-Intelligence",
+    link: "https://fifa-world-cup-data-intelligence.vercel.app/",
+    description:
+      "An end-to-end FIFA World Cup data intelligence project combining SQL Server database engineering, Python data analysis, data cleaning, validation, and interactive React analytics to explore World Cup history, teams, players, matches, rankings, and performance.",
+    features: [
+      "Designed a normalized relational database with 17 tables and 37 relationships.",
+      "Integrated historical and modern FIFA World Cup datasets into a connected data system.",
+      "Created SQL Server scripts for database creation, bulk data loading, data updates, and analytical queries.",
+      "Developed 32 analytical SQL queries and a reusable team-performance view.",
+      "Built Python notebooks for exploratory data analysis, cleaning, and data validation.",
+      "Validated tournament dates, duplicate records, missing values, and database relationships.",
+      "Developed interactive analytics dashboards using React and Vite.",
+      "Created an interactive Entity Relationship Diagram (ERD) and a dedicated Data Lab for project documentation.",
+    ],
+    technologies: [
+      "SQL Server",
+      "SQL",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Jupyter Notebook",
+      "React",
+      "Vite",
+      "JavaScript",
+      "CSS3",
+    ],
+  },
   {
     name: "Homora",
     kind: "Furniture e-commerce",
@@ -21,7 +55,16 @@ const projects = [
       "Built a responsive interface using Bootstrap.",
       "Added JavaScript scroll and reveal animations.",
     ],
-    technologies: ["Flask", "Python", "Jinja2", "HTML5", "CSS3", "JavaScript", "Bootstrap", "SQLite"],
+    technologies: [
+      "Flask",
+      "Python",
+      "Jinja2",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Bootstrap",
+      "SQLite",
+    ],
   },
   {
     name: "CineRate",
@@ -96,7 +139,9 @@ export default function Projects() {
                 <details className="project-details">
                   <summary>
                     <span>Project details</span>
-                    <span className="details-count">{project.features.length} highlights</span>
+                    <span className="details-count">
+                      {project.features.length} highlights
+                    </span>
                   </summary>
                   <ul>
                     {project.features.map((feature) => (
@@ -113,12 +158,23 @@ export default function Projects() {
 
                 <div className="project-links">
                   {project.link && (
-                    <a className="project-primary-link" href={project.link} target="_blank" rel="noopener noreferrer">
+                    <a
+                      className="project-primary-link"
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       View live project <span aria-hidden="true">↗</span>
                     </a>
                   )}
                   {project.github && (
-                    <a className="project-source-link" href={project.github} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.name} on GitHub`}>
+                    <a
+                      className="project-source-link"
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`View ${project.name} on GitHub`}
+                    >
                       GitHub <span aria-hidden="true">↗</span>
                     </a>
                   )}
