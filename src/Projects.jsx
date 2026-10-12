@@ -126,7 +126,7 @@ export default function Projects() {
                   src={project.image}
                   alt={`${project.name} project preview`}
                 />
-                <span className="project-index">{index > 9 ? index + 1 : `0${index + 1}`} / 0{projects.length}</span>
+                <span className="project-index">{index >= 9 ? index + 1 : `0${index + 1}`} / 0{projects.length}</span>
                 <span className="project-category">{project.kind}</span>
               </div>
 
