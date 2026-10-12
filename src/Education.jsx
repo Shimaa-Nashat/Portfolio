@@ -1,4 +1,5 @@
 import SectionHeading from "./SectionHeading";
+import { FaUserGraduate } from "react-icons/fa6";
 
 export default function Education() {
   return (
@@ -6,7 +7,7 @@ export default function Education() {
       <div className="wrap">
         <SectionHeading label="Building strong foundations" title="Education" text="Studying computer science and information technology at EELU." />
         <article className="education-card reveal">
-          <div className="edu-symbol">✳</div>
+          <div className="edu-symbol"><FaUserGraduate /></div>
           <div className="education-copy">
             <div className="edu-main-info">
               <h3>Bachelor’s Degree · Computer Science</h3>
