@@ -35,7 +35,7 @@ function HeroArt() {
             <br /> approach: [<br /> <i>"Accessible"</i>, <i>"Responsive"</i>,
             <br /> <i>"Maintainable"</i>
             <br /> ]<br />
-            {"}"}<i class="animate-blink text-violet">|</i>;
+            {"}"}<i className="animate-blink text-violet">|</i>;
           </code>
         </pre>
         <div className="code-foot">Building thoughtful web experiences</div>
