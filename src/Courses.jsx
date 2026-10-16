@@ -8,6 +8,11 @@ const courses = [
     image: "/certificates/cs50.jpg",
   },
   {
+    name: "Core Team of the Web Development Track",
+    issuer: "EELU Aswan Student Branch",
+    image: "/certificates/eeluBranchS1.jpg",
+  },
+  {
     name: "Front-End Web Development",
     issuer: "TIEC",
     image: "/certificates/frontend-tiec.jpg",
