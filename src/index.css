@@ -214,7 +214,7 @@ button {
   align-items: center;
   gap: 23px;
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .nav-links a {
   transition: color 0.2s;
@@ -975,7 +975,7 @@ h1 {
 }
 .cert-card p {
   margin: 0 4px;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   color: var(--soft);
 }
 
