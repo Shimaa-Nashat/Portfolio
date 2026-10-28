@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import CV from "../assets/Shimaa-Nashat-CV.pdf";
+import CV from "./assets/Shimaa_Nashat_CV.pdf";
 
 export default function Hero({ Arrow }) {
   return (
