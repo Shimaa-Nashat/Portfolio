@@ -67,25 +67,6 @@ button {
   color: var(--muted);
 }
 
-/* Small uppercase label used above section headings ("ABOUT", "PROJECTS", etc.) */
-.eyebrow {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--lav);
-  font-size: 0.74rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 0;
-}
-.eyebrow:before {
-  content: "";
-  width: 22px;
-  height: 1px;
-  background: var(--violet);
-}
-
 /* ===================================================================
    SECTION SHELL
 =================================================================== */
@@ -312,9 +293,6 @@ button {
   grid-template-columns: 1.08fr 0.92fr; /* copy slightly wider than the visual */
   gap: 55px;
   align-items: center;
-}
-.hero-copy .eyebrow {
-  margin-bottom: 20px;
 }
 h1 {
   font:
