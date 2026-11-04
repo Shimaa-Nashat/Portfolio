@@ -401,26 +401,6 @@ h1 {
 .rings:after {
   inset: 24%;
 }
-/* Small floating chips positioned around the hero art (e.g. tech callouts) */
-.float-tag {
-  position: absolute;
-  z-index: 2;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 8px 11px;
-  background: rgba(30, 24, 40, 0.92);
-  font-size: 0.72rem;
-  color: #ded4eb;
-  box-shadow: 0 8px 30px #0003;
-}
-.tag-top {
-  top: 28px;
-  right: 4%;
-}
-.tag-bottom {
-  left: 0;
-  bottom: 37px;
-}
 /* Mock "editor window" card, slightly rotated for a casual/pinned look */
 .code-card {
   z-index: 1;
@@ -1283,14 +1263,6 @@ footer .wrap {
   .code-card pre {
     font-size: 0.72rem;
     padding: 14px 16px;
-  }
-  .tag-top {
-    right: 0;
-    top: 9px;
-  }
-  .tag-bottom {
-    left: 0;
-    bottom: 20px;
   }
   .about-grid {
     grid-template-columns: 1fr;
