@@ -109,7 +109,6 @@ export default function Projects() {
     <section className="section section-line projects-section" id="projects">
       <div className="wrap">
         <SectionHeading
-          label="Selected work"
           title="Projects"
           text="A few things I’ve designed and built, from a full furniture shop to a relational movie database."
         />
