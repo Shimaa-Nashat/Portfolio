@@ -606,7 +606,6 @@ h1 {
   gap: 14px;
 }
 .service-card {
-  min-height: 225px;
   border: 1px solid var(--line);
   border-radius: 18px;
   padding: 22px;
@@ -617,8 +616,7 @@ h1 {
   );
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 24px;
+  gap: 20px;
   transition:
     transform 0.22s,
     border-color 0.22s,
@@ -647,15 +645,9 @@ h1 {
 }
 .service-card p {
   margin: 0;
-  max-width: 290px;
+  max-width: 90%;
   color: var(--muted);
   font-size: 0.87rem;
-}
-.service-card > b {
-  align-self: flex-end;
-  color: var(--lav);
-  font-size: 1.2rem;
-  font-weight: 400;
 }
 .approach-layout {
   display: grid;
