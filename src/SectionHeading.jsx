@@ -1,4 +1,4 @@
-export default function SectionHeading({ label, title, text }) {
+export default function SectionHeading({ title, text }) {
   return (
     <div className="section-heading reveal">
       <h2>{title}</h2>
