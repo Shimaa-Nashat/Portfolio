@@ -44,7 +44,6 @@ export default function Skills() {
     <section className="section section-line" id="skills">
       <div className="wrap">
         <SectionHeading
-          label="What I work with"
           title="Skills"
           text="The technologies and habits I bring to building and improving web experiences."
         />
