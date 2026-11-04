@@ -17,8 +17,6 @@ function HeroArt() {
   return (
     <div className="hero-art reveal" aria-hidden="true">
       <div className="rings" />
-      <span className="float-tag tag-top">React · Front End</span>
-      <span className="float-tag tag-bottom">Responsive by design</span>
       <div className="code-card">
         <div className="code-title">
           <b />
@@ -46,7 +44,6 @@ function HeroArt() {
 function HeroInfo({ Arrow }) {
   return (
     <div className="hero-copy reveal">
-      <p className="eyebrow">Portfolio · Aswan, Egypt</p>
       <h1>
         Shimaa <span>Nashat.</span>
       </h1>
