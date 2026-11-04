@@ -23,7 +23,6 @@ export default function Services() {
     <section className="section section-line" id="services">
       <div className="wrap">
         <SectionHeading
-          label="How I can contribute"
           title="What I bring to a project"
           text="A practical front-end skill set, a thoughtful eye for interface details, and a collaborative approach."
         />
