@@ -118,7 +118,6 @@ export default function Courses() {
     <section className="section section-line" id="courses">
       <div className="wrap">
         <SectionHeading
-          label="Curious by design"
           title="Certificates"
           text="A selection of courses that have helped me grow in programming, web development, design, and independent work."
         />
