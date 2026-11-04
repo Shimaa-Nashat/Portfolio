@@ -35,7 +35,6 @@ export default function Services() {
                 <h3>{title}</h3>
                 <p>{text}</p>
               </div>
-              <b aria-hidden="true">↗</b>
             </article>
           ))}
         </div>
