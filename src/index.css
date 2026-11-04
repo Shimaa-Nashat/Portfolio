@@ -729,13 +729,13 @@ h1 {
   margin: 6px 0;
 }
 .experience-card time {
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   color: var(--soft);
   white-space: nowrap;
 }
 .accent {
   color: #d4c3ed;
-  font-size: 0.9rem;
+  font-size: 0.92rem;
 }
 
 /* ===================================================================
