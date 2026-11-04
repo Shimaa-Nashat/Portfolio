@@ -28,7 +28,13 @@ export default function Contact() {
               <span className="contact-icon"><BsEnvelope /></span>
               <span className="contact-card-copy"><span>Email Shimaa</span><strong>Send a message</strong></span>
             </a>
-            <a className="contact-card" href="tel:+201129588081" aria-label="Call Shimaa">
+            <a
+                className="contact-card"
+                href="https://wa.me/201129588081"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Chat with Shimaa on WhatsApp"
+            >
               <span className="contact-icon"><BsFillTelephoneFill /></span>
               <span className="contact-card-copy"><span>Phone</span><strong>+20 112 958 8081</strong></span>
             </a>
