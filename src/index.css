@@ -121,6 +121,9 @@ button {
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.025);
 }
+.eyeyebrow{
+   color:var(--violet);
+}
 .about-facts strong {
   display: block;
   margin: 7px 0 2px;
