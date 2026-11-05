@@ -2,7 +2,10 @@ import {
   BsEnvelope,
   BsWhatsapp,
 } from "react-icons/bs";
-import { LuGithub , LuLinkedin } from "react-icons/lu";
+import { 
+  LuGithub ,
+  LuLinkedin, 
+} from "react-icons/lu";
 import { FaLocationDot } from "react-icons/fa6";
 
 const contacts = [
