@@ -1,9 +1,8 @@
 import {
   BsEnvelope,
-  BsGithub,
-  BsLinkedin,
   BsWhatsapp,
 } from "react-icons/bs";
+import { LuGithub , LuLinkedin } from "react-icons/lu";
 import { FaLocationDot } from "react-icons/fa6";
 
 const contacts = [
@@ -29,7 +28,7 @@ const contacts = [
     label: "LinkedIn",
     value: "Connect",
     href: "https://www.linkedin.com/in/shimaa-nashat",
-    icon: <BsLinkedin />,
+    icon: <LuLinkedin />,
     ariaLabel: "Shimaa on LinkedIn",
     external: true,
   },
@@ -38,7 +37,7 @@ const contacts = [
     label: "GitHub",
     value: "See my code",
     href: "https://github.com/Shimaa-Nashat",
-    icon: <BsGithub />,
+    icon: <LuGithub />,
     ariaLabel: "Shimaa on GitHub",
     external: true,
   },
