@@ -1,11 +1,5 @@
-import {
-  BsEnvelope,
-  BsWhatsapp,
-} from "react-icons/bs";
-import { 
-  LuGithub ,
-  LuLinkedin, 
-} from "react-icons/lu";
+import { BsEnvelope, BsWhatsapp } from "react-icons/bs";
+import { LuGithub, LuLinkedin } from "react-icons/lu";
 import { FaLocationDot } from "react-icons/fa6";
 
 const contacts = [
@@ -59,8 +53,8 @@ export default function Contact() {
           </h2>
           <p className="muted contact-intro">
             Have a role, collaboration, or idea you&rsquo;d like to discuss?
-            I&rsquo;d be happy to hear from you. Send a note by email or connect
-            with me on LinkedIn.
+            I&rsquo;d be happy to hear from you. Reach out by email or WhatsApp,
+            or connect with me on LinkedIn.
           </p>
 
           <div className="contact-links">
