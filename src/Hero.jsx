@@ -55,27 +55,6 @@ function HeroInfo({ Arrow }) {
         React and modern front-end tools, I focus on interfaces that feel
         intuitive, work across screen sizes, and are easy to maintain.
       </p>
-      <div className="social-links ">
-        <a className="hero-links" href="mailto:shimaanashat78@gmail.com">
-          <MdEmail />
-        </a>
-        <a
-          className="hero-links"
-          href="https://www.linkedin.com/in/shimaa-nashat"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaLinkedin />
-        </a>
-        <a
-          className="hero-links"
-          href="https://github.com/Shimaa-Nashat"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaGithub />
-        </a>
-      </div>
       <div className="actions">
         <a className="button primary" href="#projects">
           View My Work {Arrow}
