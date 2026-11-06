@@ -55,18 +55,6 @@ function HeroInfo({ Arrow }) {
         React and modern front-end tools, I focus on interfaces that feel
         intuitive, work across screen sizes, and are easy to maintain.
       </p>
-      <div className="actions">
-        <a className="button primary" href="#projects">
-          View My Work {Arrow}
-        </a>
-        <a
-          className="button"
-          href={`${import.meta.env.BASE_URL}Shimaa_Nashat_CV.pdf`}
-          download="Shimaa_Nashat_CV.pdf"
-        >
-          Download my CV <span aria-hidden="true">↓</span>
-        </a>
-      </div>
       <div className="social-links ">
         <a className="hero-links" href="mailto:shimaanashat78@gmail.com">
           <MdEmail />
@@ -86,6 +74,18 @@ function HeroInfo({ Arrow }) {
           rel="noreferrer"
         >
           <FaGithub />
+        </a>
+      </div>
+      <div className="actions">
+        <a className="button primary" href="#projects">
+          View My Work {Arrow}
+        </a>
+        <a
+          className="button"
+          href={`${import.meta.env.BASE_URL}Shimaa_Nashat_CV.pdf`}
+          download="Shimaa_Nashat_CV.pdf"
+        >
+          Download my CV <span aria-hidden="true">↓</span>
         </a>
       </div>
     </div>
