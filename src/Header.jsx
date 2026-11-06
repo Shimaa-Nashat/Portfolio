@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Logo from "../public/logo.png"
 
 const navItems = [
   "about",
@@ -41,7 +40,7 @@ export default function Header({ Arrow }) {
     <header className={`topbar ${scrolled ? "scrolled" : ""}`}>
       <nav className="nav wrap" aria-label="Main navigation">
         <a className="brand" href="#home">
-          <img src={Logo} className="brand-mark"/>Shimaa Nashat
+          <img src="/logo.png" className="brand-mark"/>Shimaa Nashat
         </a>
         <button
           className="menu-toggle"
