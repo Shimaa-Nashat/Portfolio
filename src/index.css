@@ -1206,6 +1206,7 @@ footer .wrap {
     gap: 20px;
   }
   .hero-art {
+    margin-top: 15px;
     min-height: 320px;
   }
   .rings {
