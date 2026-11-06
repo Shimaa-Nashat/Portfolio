@@ -242,7 +242,7 @@ button {
   justify-content: center;
   gap: 5px;
   transition: transform 0.2s;
-  font-size: 0.84rem;
+  font-size: 1.2rem;
 }
 .nav-cta svg,
 .button svg {
