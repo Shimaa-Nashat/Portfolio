@@ -1,6 +1,5 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import CV from "./assets/Shimaa_Nashat_CV.pdf";
 
 export default function Hero({ Arrow }) {
   return (
@@ -32,7 +31,8 @@ function HeroArt() {
             <br /> approach: [<br /> <i>"Accessible"</i>, <i>"Responsive"</i>,
             <br /> <i>"Maintainable"</i>
             <br /> ]<br />
-            {"}"}<i className="animate-blink text-violet">|</i>;
+            {"}"}
+            <i className="animate-blink text-violet">|</i>;
           </code>
         </pre>
         <div className="code-foot">Building thoughtful web experiences</div>
@@ -59,13 +59,17 @@ function HeroInfo({ Arrow }) {
         <a className="button primary" href="#projects">
           View My Work {Arrow}
         </a>
-        <a className="button" href={CV} download="Shimaa-Nashat-CV.pdf">
+        <a
+          className="button"
+          href={`${import.meta.env.BASE_URL}Shimaa_Nashat_CV.pdf`}
+          download="Shimaa_Nashat_CV.pdf"
+        >
           Download my CV <span aria-hidden="true">↓</span>
         </a>
       </div>
       <div className="social-links ">
         <a className="hero-links" href="mailto:shimaanashat78@gmail.com">
-          <MdEmail /> Email
+          <MdEmail />
         </a>
         <a
           className="hero-links"
@@ -73,7 +77,7 @@ function HeroInfo({ Arrow }) {
           target="_blank"
           rel="noreferrer"
         >
-          <FaLinkedin /> LinkedIn 
+          <FaLinkedin />
         </a>
         <a
           className="hero-links"
@@ -81,7 +85,7 @@ function HeroInfo({ Arrow }) {
           target="_blank"
           rel="noreferrer"
         >
-          <FaGithub /> GitHub 
+          <FaGithub />
         </a>
       </div>
     </div>
