@@ -342,8 +342,9 @@ h1 {
   display: flex;
   gap: 20px;
   margin-top: 26px;
+  margin-left: 20px;
   color: var(--soft);
-  font-size: 0.82rem;
+  font-size: 1.2rem;
 }
 .social-links a:hover,
 .contact-links a:hover {
