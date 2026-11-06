@@ -2,11 +2,11 @@
 
 A personal portfolio website built with **React** and **Vite**. It showcases my background, skills, experience, courses, and selected projects through a modern, responsive single-page design.
 
-The portfolio includes smooth scroll-reveal animations, responsive layouts, project detail dialogs, and a clean custom visual system built entirely with CSS.
+The portfolio includes smooth scroll-reveal animations, responsive layouts, expandable project details, and a clean custom visual system built entirely with CSS.
 
 ## 🌐 Live Site
 
-[View my portfolio](https://portfolio-xi-one-22.vercel.app/)
+[View my portfolio](https://portfolio-shimaa-nashat.vercel.app/)
 
 ## ✨ Sections
 
@@ -17,7 +17,7 @@ The portfolio includes smooth scroll-reveal animations, responsive layouts, proj
 - Experience
 - Projects
   - Project cards
-  - In-page project detail dialogs
+  - Expandable project details
 - Approach
 - Education
 - Courses
@@ -58,7 +58,7 @@ src/
 ├── Services.jsx         # Services section
 ├── Skills.jsx           # Skills section
 ├── Experience.jsx       # Experience section
-├── Projects.jsx         # Projects & project detail dialogs
+├── Projects.jsx         # Projects & expandable details
 ├── Approach.jsx         # Development approach
 ├── Education.jsx        # Education section
 ├── Courses.jsx          # Courses section
@@ -66,4 +66,4 @@ src/
 └── index.css            # Global styling, theme & responsive rules
 
 public/
-└── favicon.svg
+└── logo.png
